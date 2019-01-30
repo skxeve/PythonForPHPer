@@ -1,6 +1,14 @@
 # PythonForPHPer
 PHPerの為のPython入門
 
+## Docker環境
+
+```
+$ docker-compose up -d --build
+$ docker exec -it python37work bash
+# . .bash_profile
+```
+
 # 参考
 
 - [PHPerの為のPython入門 - 超基礎](https://qiita.com/odoku/items/97100c9fa20449b72588)
