@@ -9,3 +9,5 @@ services:
         volumes:
             - .:/root/work
             - ~/.ssh/id_rsa:/root/.ssh/id_rsa
+        environment:
+            - "TZ=Asia/Tokyo"
